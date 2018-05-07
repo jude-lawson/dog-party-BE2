@@ -69,7 +69,7 @@ img[alt="Good Dog 1"] {
 
 .info-box {
   width: 28%;
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,6 +78,11 @@ img[alt="Good Dog 1"] {
 .info-box * {
   font-size: 18px;
   margin: 8px 0;
+}
+
+.info-box p {
+  text-align: center;
+  font-size: 14px;
 }
 
 .dog-portrait {
@@ -106,9 +111,23 @@ footer {
   display: flex;
   background-color: #528BA5;
   flex-direction: column;
-  align-items: center
+  align-items: center;
+  height: 240px;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 footer h2 {
+  color: #FFF;
+}
+
+#social-links {
+  display: flex;
+  list-style: none;
+  width: 420px;
+  justify-content: space-around;
+}
+
+.github-link {
   color: #FFF;
 }
